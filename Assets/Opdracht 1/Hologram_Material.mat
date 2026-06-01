@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hologram_Material
-  m_Shader: {fileID: 4800000, guid: fad8cc1dac1e88a4ea0b6a9b3024b5d1, type: 3}
+  m_Shader: {fileID: 4800000, guid: e0688df45c160af4aa7fee5fddc36570, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -26,12 +26,22 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _BaseAlpha: 0.05
+    - _NumberAlpha: 0.8
+    - _NumberColumns: 12
+    - _NumberRows: 20
+    - _NumberSpeed: 0.05
+    - _NumberThickness: 0.08
+    - _PulseStrength: 0.1
+    - _RimAlpha: 0.75
     - _RimPower: 4
+    - _ScanlineAlpha: 0.25
     - _ScanlineDensity: 50
-    - _ScanlineSpeed: 2
-    - _Transparency: 0.5
+    - _ScanlineSpeed: 10.9
     m_Colors:
-    - _MainColor: {r: 0, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0, g: 1, b: 1, a: 1}
+    - _LineColor: {r: 0, g: 1, b: 0.08090758, a: 1}
+    - _NumberColor: {r: 0, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

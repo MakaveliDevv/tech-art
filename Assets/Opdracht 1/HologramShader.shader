@@ -47,9 +47,9 @@ Shader "Custom/HologramShader"
             struct Varyings
             {
                 float4 positionHCS : SV_POSITION;
-                float3 worldNormal : TEXCOORD0;
-                float3 viewDir : TEXCOORD1;
-                float3 worldPos : TEXCOORD2;
+                float3 worldPos : TEXCOORD0;
+                float3 worldNormal : TEXCOORD1;
+                float3 viewDir : TEXCOORD2;
             };
 
             CBUFFER_START(UnityPerMaterial)
